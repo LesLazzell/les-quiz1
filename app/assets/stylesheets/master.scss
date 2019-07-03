@@ -1,6 +1,35 @@
 @import "bootstrap";
 
-body {
-  background: image_url('cloudy-day.png');
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #0f0f0f;
+  background: rgb(8, 137, 223);
+  border: 1px solid #ccc;
+  border-color: #380ef3 #2e07dd #2e07dd #380ef3;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
 }
 
+.navbar {
+  background: image_url('contemp.png');
+  box-shadow: #0f0f0f;
+}
+
+body {
+  background: image_url('cloudy-day.png');
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #7330ad;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
