@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
 
-  def index
-    @pages = Page.all
+  def show
+    
   end
   
 end

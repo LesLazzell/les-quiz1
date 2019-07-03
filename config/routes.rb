@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root 'pages#index'
+  root 'static_pages#index'
 end
