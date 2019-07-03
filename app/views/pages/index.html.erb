@@ -1,1 +1,8 @@
-<h1>Quiz 1 page 1</h1>
+<% @pages.each do |page| %>
+  <div>
+    <h1><%= page.name %></h1><br />
+  </div>
+
+  <hr />
+<% end %>
+
