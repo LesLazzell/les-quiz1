@@ -13,25 +13,32 @@
 }
 
 .navbar {
-  background: image_url('contemp.png');
+  background: image_url('mosaic.png');
   box-shadow: 0px 1px 3px #0f0f0f;
   font-weight: 200;
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 }
 
 body {
-  background: image_url('cloudy-day.png');
+  background: image_url('waves.png');
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1 {
   margin: 0;
   padding: 0;
+  color: rgb(233, 197, 35);
 }
 
 .navbar-inverse .navbar-brand {
-  color: #7330ad;
+  color: #a50e0e;
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   font-weight: 700;
   letter-spacing: 1.5px;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
