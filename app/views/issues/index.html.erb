@@ -1,1 +1,10 @@
-<h1>Your Comics</h1>
+<% @issues.each do |issue| %>
+  <div>
+    <h1><%= issue.name %></h1><br />
+    <i><%= issue.description %></i><br />
+    <p><%= issue.cost %></p><br />
+  </div>
+
+  <hr />
+<% end %>
+

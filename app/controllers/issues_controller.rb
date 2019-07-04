@@ -1,9 +1,9 @@
 class IssuesController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create, :edit, :update, :delete]
 
-  # def index
-  #   @issues = Issue.order(:name).page params[:page]
-  # end
+  def index
+    @issues = Issue.all
+  end
 
   def new
     @issue = Issue.new
