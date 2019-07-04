@@ -6,17 +6,48 @@
   box-shadow: 1px 1px 2px 0 #0f0f0f;
   background: rgb(8, 137, 223);
   border: 1px solid #ccc;
-  border-color: #380ef3 #2e07dd #2e07dd #380ef3;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   margin-top: 20px;
   margin-bottom: 30px;
   padding: 10px;
 }
 
+.booyah-box h2, .booyah-box h1 {
+  margin: 10px;
+}
+
 .navbar {
-  background: image_url('mosaic.png');
-  box-shadow: 0px 1px 3px #0f0f0f;
-  font-weight: 200;
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #383838;
+  background: image_url('mosaic.png');
+}
+
+.navbar-inverse .navbar-brand {
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  color: #a50e0e;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+// .navbar-toggler-icon {
+//   color: #d0d0d0
+// }
+
+ul {
+  list-style-type: none;
+}
+
+ul .header {
+  font-size: 25px;
+}
+
+ul .header .fa {
+  font-size: 20px;
+}
+
+.clr {
+  clear: both;
 }
 
 body {
@@ -66,13 +97,6 @@ h6 {
   font-size: 40px;
 }
 
-.navbar-inverse .navbar-brand {
-  color: #a50e0e;
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-}
-
 .feature {
   width: 100%;
   padding-left: 10%;
@@ -90,4 +114,5 @@ h6 {
   -o-background-size: cover;
   background-size: cover;
   height: 500px;
+  box-shadow: 0px 3px 8px #2a2a2a;
 }
