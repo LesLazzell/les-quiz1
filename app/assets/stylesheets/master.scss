@@ -27,7 +27,43 @@ body {
 h1 {
   margin: 0;
   padding: 0;
-  color: rgb(233, 197, 35);
+  color: rgb(224, 200, 89);
+  font-size: 40px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: rgb(179, 17, 17);
+  font-size: 30px;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  color: rgb(32, 12, 214);
+  font-size: 30px;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+  color: rgb(238, 148, 13);
+  font-size: 40px;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  color: rgb(90, 89, 94);
+  font-size: 40px;
+}
+
+h6 {
+  margin: 0;
+  padding: 0;
+  color: rgb(6, 104, 22);
+  font-size: 40px;
 }
 
 .navbar-inverse .navbar-brand {
@@ -45,4 +81,13 @@ h1 {
 
 .btn {
   border-radius: 0;
+}
+
+.hero {
+  background: image_url('marvel.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
 }
