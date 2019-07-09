@@ -12,7 +12,7 @@ class IssuesController < ApplicationController
   def create
     @issue = current_user.issues.create(issue_params)
     if @issue.valid?
-      redirect_to new_issue_path
+      redirect_to issues_path
     else
       render :new, status: :unprocessable_entity
     end
